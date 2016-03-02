@@ -50,12 +50,6 @@ header {
   header .nav-spread {
     display: flex;
     flex-direction: column; }
-    @media screen and (min-width: 800px) {
-      header .nav-spread {
-        flex-direction: row;
-        align-items: center;
-        width: 530px;
-        justify-content: space-between; } }
     header .nav-spread nav {
       display: flex;
       align-items: center;
@@ -64,9 +58,6 @@ header {
         margin: 0 10px 20px;
         color: white;
         text-decoration: none; }
-        @media screen and (min-width: 800px) {
-          header .nav-spread nav a {
-            margin: 0 10px; } }
         header .nav-spread nav a:hover {
           color: #C91423; }
 

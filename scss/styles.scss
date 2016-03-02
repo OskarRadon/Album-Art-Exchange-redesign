@@ -48,6 +48,7 @@ header {
     @media screen and (min-width: 800px) {
       margin: 15px 0;
     }
+
   }
   .red {
     color: $color-prim;
@@ -55,12 +56,7 @@ header {
   .nav-spread {
     display: flex;
     flex-direction: column;
-    @media screen and (min-width: 800px) {
-      flex-direction: row;
-      align-items: center;
-      width: 530px;
-      justify-content: space-between;
-    }
+
     nav {
       display: flex;
       align-items: center;
@@ -69,9 +65,6 @@ header {
         margin: 0 10px 20px;
         color: white;
         text-decoration: none;
-        @media screen and (min-width: 800px) {
-          margin: 0 10px;
-        }
         &:hover {
           color: $color-prim;
         }
