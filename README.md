@@ -1,4 +1,4 @@
-## Dribbble
+## Album Art Exchange redesign
 
 **Epicodus CSS week 4**
 
@@ -6,7 +6,7 @@ By **Oskar Radon and Schuyler Klaassen**
 
 #### Description
 
-Code along with DevTips [Dribbble video](https://www.youtube.com/watch?v=H1lREysgdgc).
+This is a redesign of the [Album Art Exchange](http://www.albumartexchange.com/) site.
 
 #### Technologies Used
 
