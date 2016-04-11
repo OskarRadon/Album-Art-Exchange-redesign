@@ -9,7 +9,7 @@ Simple one page page re-design of the [Album Art Exchange](http://www.albumartex
 
 #### Technologies Used
 
-Sass, CSS, HTML
+Sass, CSS (flexbox!!!), HTML
 
 #### License
 
