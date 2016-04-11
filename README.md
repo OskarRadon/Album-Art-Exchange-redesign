@@ -5,7 +5,7 @@
 By **Oskar Radon and Schuyler Klaassen**
 
 #### Description
-Simple one page page re-design of [Album Art Exchange](http://www.albumartexchange.com/) styled using Sass, focusing on responsiveness. [Click here](http://oskarradon.github.io/Album-Art-Exchange-redesign/) to viewe a live version of the site.
+Simple one page page re-design of the [Album Art Exchange](http://www.albumartexchange.com/) site, focusing on responsiveness. [Click here](http://oskarradon.github.io/Album-Art-Exchange-redesign/) to view a live version of the site.
 
 #### Technologies Used
 
