@@ -1,12 +1,11 @@
-## Dribbble
+## Album Art Exchange
 
-**Epicodus CSS week 4**
+**Epicodus CSS week 4 Project**
 
 By **Oskar Radon and Schuyler Klaassen**
 
 #### Description
-
-Code along with DevTips [Dribbble video](https://www.youtube.com/watch?v=H1lREysgdgc).
+Simple one page page re-design of [Album Art Exchange](http://www.albumartexchange.com/) styled using Sass, focusing on responsiveness. [Click here](http://oskarradon.github.io/Album-Art-Exchange-redesign/) to viewe a live version of the site.
 
 #### Technologies Used
 
