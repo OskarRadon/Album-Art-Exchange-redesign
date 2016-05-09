@@ -13,7 +13,7 @@ main {
       width: 720px;
       height: 720px;
     }
-    img {
+    .album {
       width: calc(33.33% - 20px);
       height: calc(33.33% - 20px);
       margin: 10px;
@@ -22,6 +22,15 @@ main {
         height: 220px;
       }
     }
+  }
+}
+
+@for $i from 1 through 9 {
+  $random : random(18);
+
+  .a#{$i} {
+    background-image: url(../img/#{$random}.jpg);
+    background-size: cover;
   }
 }
 

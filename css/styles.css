@@ -79,14 +79,50 @@ main {
       main .gallery {
         width: 720px;
         height: 720px; } }
-    main .gallery img {
+    main .gallery .album {
       width: calc(33.33% - 20px);
       height: calc(33.33% - 20px);
       margin: 10px; }
       @media screen and (min-width: 800px) {
-        main .gallery img {
+        main .gallery .album {
           width: 220px;
           height: 220px; } }
+
+.a1 {
+  background-image: url(../img/16.jpg);
+  background-size: cover; }
+
+.a2 {
+  background-image: url(../img/18.jpg);
+  background-size: cover; }
+
+.a3 {
+  background-image: url(../img/12.jpg);
+  background-size: cover; }
+
+.a4 {
+  background-image: url(../img/3.jpg);
+  background-size: cover; }
+
+.a5 {
+  background-image: url(../img/16.jpg);
+  background-size: cover; }
+
+.a6 {
+  background-image: url(../img/14.jpg);
+  background-size: cover; }
+
+.a7 {
+  background-image: url(../img/5.jpg);
+  background-size: cover; }
+
+.a8 {
+  background-image: url(../img/5.jpg);
+  background-size: cover; }
+
+.a9 {
+  background-image: url(../img/8.jpg);
+  background-size: cover; }
 
 .search {
   text-align: center;
