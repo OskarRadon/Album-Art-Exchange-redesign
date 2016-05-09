@@ -1,0 +1,40 @@
+header {
+  text-align: center;
+  margin: 0 auto;
+  @media screen and (min-width: $first-breakpoint) {
+    display: flex;
+    width: 710px;
+    justify-content: space-between;
+  }
+  h1 {
+    margin: 15px auto;
+    width: 155px;
+    @media screen and (min-width: $first-breakpoint) {
+      margin: 15px 0;
+    }
+
+  }
+  .red {
+    color: $color-prim;
+  }
+  .nav-spread {
+    display: flex;
+    flex-direction: column;
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      a {
+        margin: 0px 10px 20px;
+        color: $color-accent;
+        text-decoration: none;
+        @media screen and (min-width: $first-breakpoint) {
+          margin-top: 20px;
+        }
+        &:hover {
+          color: $color-prim;
+        }
+      }
+    }
+  }
+}

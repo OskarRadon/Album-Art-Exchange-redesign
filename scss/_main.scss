@@ -1,0 +1,44 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 90vw;
+    height: 90vw;
+    flex-wrap: wrap;
+    @media screen and (min-width: $first-breakpoint) {
+      width: 720px;
+      height: 720px;
+    }
+    img {
+      width: calc(33.33% - 20px);
+      height: calc(33.33% - 20px);
+      margin: 10px;
+      @media screen and (min-width: $first-breakpoint) {
+        width: 220px;
+        height: 220px;
+      }
+    }
+  }
+}
+
+.search {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  p {
+    width: 60vw;
+    color: $color-text;
+    @media screen and (min-width: $first-breakpoint) {
+      width: 500px;
+    }
+  }
+}

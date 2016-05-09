@@ -1,0 +1,32 @@
+body {
+  background: $color-bg;
+  color: $color-accent;
+  font-family: 'Helvetica Neue';
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  @media screen and (min-width: $first-breakpoint) {
+    width: $first-breakpoint;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+input, button {
+  @extend %padding;
+  border: none;
+  font-size: .8em;
+  outline: none;
+}
+button {
+  border-radius: 0 3px 3px 0;
+  margin-left: -5px;
+  background: $color-prim;
+  color: $color-accent;
+}
+input {
+  border-radius: 3px 0 0 3px;
+  text-align: center;
+}
