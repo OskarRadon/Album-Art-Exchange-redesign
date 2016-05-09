@@ -1,18 +1,27 @@
-window.onload = function() {
+//
+// var random = getRandomInt();
+// console.log(random);
+//
+// window.onload = function() {
+//
+//   function generateImage() {
+//     for (i = 1; i <= 9; i++) {
+//       document.getElementById("a" + i).style.backgroundImage = "url('img/" + random + ".jpg')";
+//     }
+//
+//   }
+//   setTimeout(generateImage, 1000);
+//
+// }
 
-  function getRandomInt() {
-    return Math.floor(Math.random() * (18) + 1);
-  }
+var rotate = false;
+function setbackground() {
+  window.setTimeout( setbackground, 1000);
+  var newImage = rotate ? 'url(img/' + 1 +'.jpg)' : 'url(img/' + 2 + '.jpg)';
+  rotate = !rotate;
+  document.getElementById('a1').style.backgroundImage = newImage;
+}
 
-  var random = getRandomInt();
-  console.log(random);
-
-  function generateImage() {
-    for (i = 1; i <= 9; i++) {
-      document.getElementByClassName("album").style.backgroundImage = "url('1.jpg')";
-    }
-
-  }
-  setTimeout(generateImage, 1000);
-
+function getRandomInt() {
+ return Math.floor(Math.random() * (17) + 1);
 }
