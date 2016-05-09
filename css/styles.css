@@ -89,39 +89,39 @@ main {
           height: 220px; } }
 
 .a1 {
-  background-image: url(../img/16.jpg);
+  background-image: url(../img/1.jpg);
   background-size: cover; }
 
 .a2 {
-  background-image: url(../img/18.jpg);
+  background-image: url(../img/2.jpg);
   background-size: cover; }
 
 .a3 {
-  background-image: url(../img/12.jpg);
-  background-size: cover; }
-
-.a4 {
   background-image: url(../img/3.jpg);
   background-size: cover; }
 
+.a4 {
+  background-image: url(../img/4.jpg);
+  background-size: cover; }
+
 .a5 {
-  background-image: url(../img/16.jpg);
+  background-image: url(../img/5.jpg);
   background-size: cover; }
 
 .a6 {
-  background-image: url(../img/14.jpg);
+  background-image: url(../img/6.jpg);
   background-size: cover; }
 
 .a7 {
-  background-image: url(../img/5.jpg);
+  background-image: url(../img/7.jpg);
   background-size: cover; }
 
 .a8 {
-  background-image: url(../img/5.jpg);
+  background-image: url(../img/8.jpg);
   background-size: cover; }
 
 .a9 {
-  background-image: url(../img/8.jpg);
+  background-image: url(../img/9.jpg);
   background-size: cover; }
 
 .search {

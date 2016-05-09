@@ -26,10 +26,8 @@ main {
 }
 
 @for $i from 1 through 9 {
-  $random : random(18);
-
   .a#{$i} {
-    background-image: url(../img/#{$random}.jpg);
+    background-image: url(../img/#{$i}.jpg);
     background-size: cover;
   }
 }
