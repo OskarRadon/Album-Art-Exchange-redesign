@@ -5,7 +5,7 @@
 By **Oskar Radon and Schuyler Klaassen**
 
 #### Description
-Simple one page page re-design of the [Album Art Exchange](http://www.albumartexchange.com/) site, focusing on responsiveness. [Click here](http://oskarradon.github.io/Album-Art-Exchange-redesign/) to view a live version of the site.
+Simple one page page re-design of the [Album Art Exchange](http://www.albumartexchange.com/) front page, focusing on responsiveness. [Click here](http://oskarradon.github.io/Album-Art-Exchange-redesign/) to view a live version of the site.
 
 #### Things to add:
  - An if else statement that ensures each image is a new one so there aren't any pauses in the animation.
