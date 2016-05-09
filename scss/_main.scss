@@ -31,7 +31,7 @@ main {
 }
 
 @for $i from 1 through 9 {
-  .a#{$i} {
+  #a#{$i} {
     background-image: url(../img/#{$i}.jpg);
     background-size: cover;
   }
