@@ -1,3 +1,6 @@
 window.onload = function() {
-  alert("page is loaded :)");
+
+  function getRandomInt() {
+    return Math.floor(Math.random() * (18) + 1);
+  }
 }
