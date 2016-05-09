@@ -17,6 +17,11 @@ main {
       width: calc(33.33% - 20px);
       height: calc(33.33% - 20px);
       margin: 10px;
+      // -webkit-filter: grayscale(1);
+      // filter: grayscale(1);
+      // &:hover {
+      //   filter: grayscale(0);
+      // }
       @media screen and (min-width: $first-breakpoint) {
         width: 220px;
         height: 220px;
